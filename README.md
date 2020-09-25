@@ -18,5 +18,5 @@ RealCall
 Dispatcher
 队列 + 线程池
 
-OkHttpClient
+HttpClient
 统一管理连接资源，如Dispatcher
