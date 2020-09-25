@@ -7,7 +7,7 @@
 3.异步调用Callback接口，返回响应类Response
 4.线程池+队列的封装类Dispatcher
 5.任务执行类RealCall，RealCall接受Request参数，调用线程池实现网络请求的具体逻辑，返回Response结构体。
-6.统一管理类HttpClient，负责Dispatcher等参数的初始化，负责把所有组件串联起来
+6.统一管理类HttpClient，负责Dispatcher，RealCall等参数的初始化，负责把所有组件串联起来
 
 
 整个架构分为以下几个类：
